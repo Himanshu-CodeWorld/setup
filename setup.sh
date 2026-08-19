@@ -2,9 +2,9 @@
 
 set -e
 
-echo "=============================================="
-echo "      ShellRemoteAdmin Target Setup"
-echo "=============================================="
+echo "================"
+echo "      Setup"
+echo "================"
 echo
 
 OS="$(uname -s)"
@@ -80,9 +80,9 @@ EOF
     echo "  sudo -n systemctl poweroff"
 
     echo
-    echo "=============================================="
+    echo "============================"
     echo " Target setup completed"
-    echo "=============================================="
+    echo "============================"
 
 elif [ "$OS" = "Darwin" ]; then
 
